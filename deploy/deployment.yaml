@@ -21,8 +21,8 @@ spec:
       - image: us.icr.io/sn-labs-lavanyar/accounts:1
         name: accounts
         resources: {}
-status: {}
-env:
+
+        env:
           - name: DATABASE_HOST
             value: postgresql
           - name: DATABASE_NAME
